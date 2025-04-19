@@ -199,3 +199,150 @@ h3 {
     position: relative;
     bottom: -42px;
 }
+
+/* ABOUT US */
+#aboutus {
+    margin: 80px auto 80px auto;
+}
+
+/* 3つの組織文化と画像を入れる枠 */
+#aboutus > div {
+    display: flex;
+}
+
+/* 画像 */
+.culture-img {
+    width: 50%;
+    align-self: flex-start;
+}
+
+.culture-img2 {
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* 3つの組織文化の表 */
+.culture-table {
+    margin-right: 50px;
+}
+
+/* 番号 */
+.culture-num {
+    font-size: 80px;
+    color: #2710d5;
+    padding: 0 20px 0 0;
+}
+
+/* 見出し*/
+.culture-table th {
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* 組織文化英語 */
+.culture-en {
+    color: #2710d5;
+    font-size: 24px;
+}
+
+/* 説明文 */
+.culture-description {
+    margin: 0;
+}
+
+/* ビジョン */
+#vision {
+    margin: 80px auto 80px auto;
+}
+
+/* セクション内の外枠 */
+#vision > div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* 7つの行動指針の枠 */
+.vision-box {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.vision-box > img {
+    width: 100%;
+    position: relative;
+    z-index: 30;
+}
+
+.vision-box > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 31;
+    margin-right: 20px;
+}
+
+.vision-box > div > h4 {
+    color: #2710d5;
+    font-size: 19px;
+    margin: 80px 0 0 0;
+}
+
+.vision-box > div > h4::first-letter {
+    font-size: 40px;
+}
+
+.vision-box > div > h5 {
+    font-size: 20px;
+    margin: 0 0 0 0;
+}
+
+.vision-box > div > p {
+    margin: 10px 0 0 0;
+}
+
+/* 会社概要 */
+#company {
+    margin: 80px auto 80px auto;
+}
+
+#company-table {
+    width: 100%;
+}
+
+.tableheader {
+    text-align: left;
+    padding: 20px;
+    border-bottom-color: #2710d5;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    width: 100px;
+}
+
+.tableheader-first {
+    border-top-color: #2710d5;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+.cell {
+    padding: 30px;
+    border-bottom-color: #ececec;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.cell-first {
+    border-top-color: #ececec;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+#company > iframe {
+    width: 100%;
+    height: 368px;
+    margin-top: 40px;
+}
